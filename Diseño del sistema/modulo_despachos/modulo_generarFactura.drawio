@@ -10,10 +10,10 @@
                 <mxCell id="5" value="José:&lt;br&gt;GenerarFacturaCliente" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
                     <mxGeometry x="70" y="20" width="70" height="120" as="geometry"/>
                 </mxCell>
-                <mxCell id="6" value="elCliente:cliente" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                <mxCell id="6" value="elCliente:clientes" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="420" y="30" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="7" value="laOrden:orden&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                <mxCell id="7" value="laOrden:ordenes" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="900" y="30" width="120" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="8" value="GenerarFacturaCliente(elCliente,&amp;nbsp;&lt;span style=&quot;text-align: left&quot;&gt;elPedido&lt;/span&gt;)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
@@ -76,7 +76,7 @@
                         <mxPoint x="730" y="230" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="22" value="elPedido:pedido" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                <mxCell id="22" value="elPedido:pedidos" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="670" y="30" width="120" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="23" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;" parent="1" edge="1">

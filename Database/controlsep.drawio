@@ -1,0 +1,31 @@
+<mxfile host="65bd71144e">
+    <diagram id="IuOd_ArnKMcrMBb05uNj" name="Page-1">
+        <mxGraphModel dx="713" dy="535" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="20" value="" style="whiteSpace=wrap;html=1;align=left;verticalAlign=bottom;spacingLeft=10;spacingTop=0;labelPosition=center;verticalLabelPosition=top;" vertex="1" parent="1">
+                    <mxGeometry x="50" y="10" width="670" height="550" as="geometry"/>
+                </mxCell>
+                <mxCell id="2" value="USUARIO" style="whiteSpace=wrap;html=1;align=left;verticalAlign=bottom;spacingLeft=10;spacingTop=0;labelPosition=center;verticalLabelPosition=top;" parent="1" vertex="1">
+                    <mxGeometry x="70" y="40" width="630" height="500" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="HOGARES" style="whiteSpace=wrap;html=1;align=left;verticalAlign=bottom;spacingLeft=10;spacingTop=0;labelPosition=center;verticalLabelPosition=top;" parent="1" vertex="1">
+                    <mxGeometry x="90" y="70" width="590" height="450" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="SERVICIOS" style="whiteSpace=wrap;html=1;align=left;verticalAlign=bottom;spacingLeft=10;spacingTop=0;labelPosition=center;verticalLabelPosition=top;" parent="1" vertex="1">
+                    <mxGeometry x="110" y="100" width="550" height="400" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="SENSORES" style="whiteSpace=wrap;html=1;align=left;verticalAlign=bottom;spacingLeft=10;spacingTop=0;labelPosition=center;verticalLabelPosition=top;" parent="1" vertex="1">
+                    <mxGeometry x="130" y="140" width="510" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="LECTURAS" style="whiteSpace=wrap;html=1;align=left;verticalAlign=bottom;spacingLeft=10;spacingTop=0;labelPosition=center;verticalLabelPosition=top;" parent="1" vertex="1">
+                    <mxGeometry x="130" y="250" width="510" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="TARIFAS" style="whiteSpace=wrap;html=1;align=left;verticalAlign=bottom;spacingLeft=10;spacingTop=0;labelPosition=center;verticalLabelPosition=top;" parent="1" vertex="1">
+                    <mxGeometry x="130" y="370" width="510" height="80" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

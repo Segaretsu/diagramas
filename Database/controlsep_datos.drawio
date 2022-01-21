@@ -1,0 +1,46 @@
+<mxfile host="65bd71144e">
+    <diagram id="IuOd_ArnKMcrMBb05uNj" name="Page-1">
+        <mxGraphModel dx="713" dy="535" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="20" value="" style="whiteSpace=wrap;html=1;align=left;verticalAlign=bottom;spacingLeft=10;spacingTop=0;labelPosition=center;verticalLabelPosition=top;" parent="1" vertex="1">
+                    <mxGeometry x="50" y="10" width="740" height="1230" as="geometry"/>
+                </mxCell>
+                <mxCell id="2" value="USUARIO" style="whiteSpace=wrap;html=1;align=left;verticalAlign=bottom;spacingLeft=10;spacingTop=0;labelPosition=center;verticalLabelPosition=top;" parent="1" vertex="1">
+                    <mxGeometry x="70" y="40" width="180" height="190" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="21" target="22">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="{&#10;&#9;&quot;activo&quot;: Boolean,&#10;&#9;&quot;apellidos&quot;: String,&#10;&#9;&quot;correo&quot;: String,&#10;&#9;&quot;clave&quot;: String,&#10;&#9;&quot;googleId&quot;: String,&#10;&#9;&quot;nombres&quot;: String,&#10;&#9;&quot;perfiles&quot;: Array,&#10;&#9;&quot;username&quot;: String,&#10;&#9;&quot;version_schema&quot;: Number&#10;}" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="80" y="50" width="170" height="170" as="geometry"/>
+                </mxCell>
+                <mxCell id="34" style="edgeStyle=none;html=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="22" target="26">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="37" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="22" target="35">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" value="HOGARES" style="whiteSpace=wrap;html=1;align=left;verticalAlign=bottom;spacingLeft=10;spacingTop=0;labelPosition=center;verticalLabelPosition=top;" vertex="1" parent="1">
+                    <mxGeometry x="335" y="40" width="335" height="360" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" value="{&#10;&#9;&quot;_userId&quot;: mongoose.Schema.Types.ObjectId,&#10;&#9;&quot;activo&quot;: Boolean,&#10;&#9;&quot;estrato&quot;: String,&#10;&#9;&quot;hogar_actual&quot;: Boolean,&#10;&#9;&quot;localidad&quot;: {&#10;&#9;&#9;&quot;_idPais&quot;: mongoose.Schema.Types.ObjectId,&#10;&#9;&#9;&quot;codigo_divipola&quot;: String,&#10;&#9;},&#10;&#9;&quot;nombre&quot;: String,&#10;&#9;&quot;numero_contrato&quot;: String,&#10;&#9;&quot;servicios&quot;: [&#10;&#9;&#9;{&#10;&#9;&#9;&#9;principal: String,&#10;&#9;&#9;&#9;secundario: String,&#10;&#9;&#9;&#9;sensor: {&#10;&#9;&#9;&#9;&#9;_idSensor: mongoose.Schema.Types.ObjectId,&#10;&#9;&#9;&#9;&#9;has_sensor: Boolean,&#10;&#9;&#9;&#9;}&#10;&#9;&#9;}&#10;&#9;],&#10;&#9;&quot;tipo_hogar&quot;: String,&#10;&#9;&quot;version_schema&quot;: Number&#10;}" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="350" y="40" width="280" height="350" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" value="TARIFA" style="whiteSpace=wrap;html=1;align=left;verticalAlign=bottom;spacingLeft=10;spacingTop=0;labelPosition=center;verticalLabelPosition=top;" vertex="1" parent="1">
+                    <mxGeometry x="90" y="460" width="300" height="460" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" value="{&#10;&#9;estrato: String,&#10;    fecha_fin: Date,&#10;    fecha_inicio: Date,&#10;    limite_subsidiado: Number&#10;    localidad: {&#10;        id_pais: mongoose.Schema.Types.ObjectId,&#10;        codigo_divipola_ciudad: String,&#10;    },&#10;    otros_valores: [&#10;        {&#10;            nombre: String,&#10;            descripcion: String,&#10;            valor: Number&#10;        },&#10;    ],&#10;    otros_valores_cantidad: Number,&#10;    otros_valores_sumatoria: Number,&#10;    servicio_publico: {&#10;        principal: String,&#10;        secundario: String&#10;    },&#10;    subsidio_gobierno: Number,&#10;    tarifa_activa: Boolean,&#10;    unidad_medida: String,&#10;    url_tarifa: String,&#10;    valor_consumo: Number,&#10;    valor_consumo_exceso: Number,&#10;    version_schema: Number,&#10;}" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="100" y="470" width="280" height="440" as="geometry"/>
+                </mxCell>
+                <mxCell id="35" value="LECTURAS" style="whiteSpace=wrap;html=1;align=left;verticalAlign=bottom;spacingLeft=10;spacingTop=0;labelPosition=center;verticalLabelPosition=top;" vertex="1" parent="1">
+                    <mxGeometry x="460" y="470" width="300" height="750" as="geometry"/>
+                </mxCell>
+                <mxCell id="36" value="{&#10;&#9;&quot;_homeId&quot;: mongoose.Schema.Types.ObjectId,&#10;&#9;&quot;conteo_mediciones_mes&quot;: Number,&#10;&#9;&quot;fecha_fin&quot;: Date,&#10;&#9;&quot;fecha_inicio&quot;: Date,&#10;&#9;&quot;agua&quot;: {&#10;&#9;&#9;&quot;_id_sensor&quot;: mongoose.Schema.Types.ObjectId,&#10;&#9;&#9;&quot;conteo_mediciones_mes&quot;: Number,&#10;&#9;&#9;&quot;lectura_actual_contador&quot;: Number,&#10;&#9;&#9;&quot;mediciones&quot;: [&#10;&#9;&#9;&#9;{&#10;&#9;&#9;&#9;&#9;_id: Number,&#10;&#9;&#9;&#9;&#9;consumo: Number,&#10;&#9;&#9;&#9;&#9;fecha_hora: Date,&#10;&#9;&#9;&#9;&#9;tipo_registro: String&#10;&#9;&#9;&#9;}&#10;&#9;&#9;],&#10;&#9;&#9;&quot;suma_consumos&quot;: Number,&#10;&#9;},&#10;&#9;&quot;energia&quot;: {&#10;&#9;&#9;&quot;_id_sensor&quot;: mongoose.Schema.Types.ObjectId,&#10;&#9;&#9;&quot;conteo_mediciones_mes&quot;: Number,&#10;&#9;&#9;&quot;lectura_actual_contador&quot;: Number,&#10;&#9;&#9;&quot;mediciones&quot;: [&#10;&#9;&#9;&#9;{&#10;&#9;&#9;&#9;&#9;_id: Number,&#10;&#9;&#9;&#9;&#9;consumo: Number,&#10;&#9;&#9;&#9;&#9;fecha_hora: Date,&#10;&#9;&#9;&#9;&#9;tipo_registro: String&#10;&#9;&#9;&#9;}&#10;&#9;&#9;],&#10;&#9;&#9;&quot;suma_consumos&quot;: Number&#10;&#9;},&#10;&#9;&quot;gas&quot;: {&#10;&#9;&#9;&quot;_id_sensor&quot;: mongoose.Schema.Types.ObjectId,&#10;&#9;&#9;&quot;conteo_mediciones_mes&quot;: Number,&#10;&#9;&#9;&quot;lectura_actual_contador&quot;: Number,&#10;&#9;&#9;&quot;mediciones&quot;: [&#10;&#9;&#9;&#9;{&#10;&#9;&#9;&#9;&#9; _id: Number,&#10;&#9;&#9;&#9;&#9;consumo: Number,&#10;&#9;&#9;&#9;&#9;fecha_hora: Date,&#10;&#9;&#9;&#9;&#9;tipo_registro: String&#10;&#9;&#9;&#9;}&#10;&#9;&#9;],&#10;&#9;&#9;&quot;suma_consumos&quot;: Number,&#10;&#9;},&#10;&#9;&quot;suma_consumos&quot;: Number,&#10;&#9;&quot;version_schema&quot;: Number&#10;}" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="470" y="480" width="290" height="720" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
